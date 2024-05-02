@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+ 
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(./images/amozen\ logo.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.nav-location  {
+    height: 50px;
+    width: 90px;
+}
+
+
+.location-icon {
+    display: flex;
+    align-items: center;
+}
+
+.location-1 {
+    color: whitesmoke;
+    font-size: .7rem;
+    margin-left: 19px;
+    padding-top: 5px;
+    
+}
+
+.location-2 {
+    font-size: 1rem;
+    margin-left: 3px;
+    padding-left: 2px;
+}
