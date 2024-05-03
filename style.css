@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,8 +13,9 @@
     display: flex;
     gap: 5px;
     align-items: center;
+    justify-content: space-evenly;
 }
- 
+
 .nav-logo {
     height: 50px;
     width: 100px;
@@ -32,10 +35,11 @@
 .border:hover {
     border: 1.5px solid white;
 }
+/** box 2 **/
 
 .nav-location  {
     height: 50px;
-    width: 90px;
+    width: 160px;
 }
 
 
@@ -49,7 +53,6 @@
     font-size: .7rem;
     margin-left: 19px;
     padding-top: 5px;
-    
 }
 
 .location-2 {
@@ -57,3 +60,132 @@
     margin-left: 3px;
     padding-left: 2px;
 }
+
+/** box 3 **/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 700px;
+    border-radius: 4px;
+    background-color: pink;
+}
+
+.all {
+   height: 40px;
+   width: 51px;
+   text-align: center;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border: none;
+   background-color: #f3f3f3;
+   font-size: 1rem;
+   color: rgb(81, 81, 77);
+}
+
+.text {
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+    background-color: #f3f3f3;
+}
+
+.search-icon {
+    width: 45px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(234, 234, 15);
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+
+/** box 4 **/
+.country {
+    height: 33px;
+    width: 70.38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag {
+    background-image: url(./images/indian\ flag.png);
+    background-size: cover;
+    height: 16.2px;
+    width: 21.35px;
+    margin: 0,2px,1px,0;
+}
+
+.lang {
+    height: 15px;
+    width:40px;
+    font-weight: bold;
+    font-size: .8rem;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/** box 4 **/
+
+.nav-sign{
+    height: 50px;
+    width:131px;
+}
+
+span{
+   font-size: 12px; 
+   background-origin:#ffffff;
+   font-weight:400 ;
+   margin-left: 10px;
+   margin-top: 20px;
+}
+
+.nav-3 {
+    font: size 14px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.account {
+    height: 15px;
+    display: flex;
+}
+  
+.list {
+    background-color: black;
+    color: white;
+    border: none;
+}
+/** box 5 **/
+
+.ret-ord {
+    height: 50px;
+    width: 76px;
+}
+
+.nav-4 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+/** box 6 **/
+.nav-cart i {
+     font-size: 30px;
+}
+
+.nav-cart {
+   font-size: 0.85rem;
+   font-weight: 700;
+}
+
+
+
+
+
+
